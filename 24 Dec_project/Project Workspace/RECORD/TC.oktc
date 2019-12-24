@@ -97,6 +97,27 @@
         <FlowStepInputArgument>
           <Name>IgnoreCase</Name>
           <DataSource>StaticValue</DataSource>
+          <StaticValue xsi:type="xsd:boolean">false</StaticValue>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs>
+        <FlowStepOutputArgument />
+      </StepOutputArgs>
+    </FlowStep>
+    <FlowStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Component_RelativePath>DDDF7764293E269A6DB7B55F975E6EDC</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>Default</DataSource>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>Default</DataSource>
         </FlowStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
