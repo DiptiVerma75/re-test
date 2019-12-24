@@ -14,7 +14,7 @@
   </MetaInformation>
   <TestSteps>
     <TestStep>
-      <ContinueOnError>false</ContinueOnError>
+      <ContinueOnError>true</ContinueOnError>
       <IsNegative>false</IsNegative>
       <ShouldRun>true</ShouldRun>
       <WantSnapshot>true</WantSnapshot>
@@ -35,6 +35,22 @@
       </StepInputArgs>
       <StepOutputArgs>
         <TestStepOutputArgument />
+      </StepOutputArgs>
+    </TestStep>
+    <TestStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Keyword_RelativePath>OpKeyGenericKeyword/FetchBrowserURL</Keyword_RelativePath>
+      <SoapMethod_RelativePath />
+      <RestMethod_RelativePath />
+      <StepInputArgs />
+      <StepOutputArgs>
+        <TestStepOutputArgument>
+          <OutputVariableName>Signup browser</OutputVariableName>
+          <ParameterName>Output</ParameterName>
+        </TestStepOutputArgument>
       </StepOutputArgs>
     </TestStep>
     <TestStep>
@@ -244,5 +260,12 @@
       <Type>String</Type>
     </ComponentInputParameter>
   </InputParameters>
-  <OutputParameters />
+  <OutputParameters>
+    <ComponentOutputParameter>
+      <Name>SignupB</Name>
+      <Description>this will fetch the ciurreent browser</Description>
+      <Type>String</Type>
+      <ComponentStep_OutputArg>StepOutput/Signup browser</ComponentStep_OutputArg>
+    </ComponentOutputParameter>
+  </OutputParameters>
 </ComponentSchema>
