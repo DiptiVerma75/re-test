@@ -24,13 +24,13 @@
       <StepInputArgs>
         <TestStepInputArgument>
           <Name>Browser</Name>
-          <DataSource>ValueFromGlobalVariable</DataSource>
-          <GV_RelativePath>GlobalVariables/Default Browser</GV_RelativePath>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/Browser</InputParameter_RelativePath>
         </TestStepInputArgument>
         <TestStepInputArgument>
           <Name>URL</Name>
-          <DataSource>StaticValue</DataSource>
-          <StaticValue xsi:type="xsd:string">https://device.pcloudy.com/</StaticValue>
+          <DataSource>ValueFromInputParameter</DataSource>
+          <InputParameter_RelativePath>InputArguments/URL</InputParameter_RelativePath>
         </TestStepInputArgument>
       </StepInputArgs>
       <StepOutputArgs>
@@ -228,6 +228,21 @@
       </StepOutputArgs>
     </TestStep>
   </TestSteps>
-  <InputParameters />
+  <InputParameters>
+    <ComponentInputParameter>
+      <Name>Browser</Name>
+      <DefaultValues />
+      <IsMandatory>false</IsMandatory>
+      <Description>Use Browser</Description>
+      <Type>String</Type>
+    </ComponentInputParameter>
+    <ComponentInputParameter>
+      <Name>URL</Name>
+      <DefaultValues />
+      <IsMandatory>false</IsMandatory>
+      <Description>Use pCLoudy URL</Description>
+      <Type>String</Type>
+    </ComponentInputParameter>
+  </InputParameters>
   <OutputParameters />
 </ComponentSchema>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<FlowSchema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ImportedArtifacts>
+    <ImportSectionDTO>
+      <Name>DDDF7764293E269A6DB7B55F975E6EDC</Name>
+      <Value>Project Workspace/RECORD/SIGN_UP.okfl</Value>
+    </ImportSectionDTO>
+    <ImportSectionDTO>
+      <Name>21B82BE49AF401BAD87F54BAB4C9606C</Name>
+      <Value>Project Workspace/RECORD/GLobalVariable.okgdr</Value>
+    </ImportSectionDTO>
+  </ImportedArtifacts>
+  <MetaInformation>
+    <DescriptionRTF />
+    <ExpectedResult />
+    <IsShared>false</IsShared>
+    <IsAutoCreated>false</IsAutoCreated>
+  </MetaInformation>
+  <FlowSteps>
+    <FlowStep>
+      <ContinueOnError>true</ContinueOnError>
+      <IsNegative>false</IsNegative>
+      <ShouldRun>true</ShouldRun>
+      <WantSnapshot>true</WantSnapshot>
+      <Component_RelativePath>DDDF7764293E269A6DB7B55F975E6EDC</Component_RelativePath>
+      <StepInputArgs>
+        <FlowStepInputArgument>
+          <Name>Browser</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>21B82BE49AF401BAD87F54BAB4C9606C/Browser</DR_RelativePath>
+        </FlowStepInputArgument>
+        <FlowStepInputArgument>
+          <Name>URL</Name>
+          <DataSource>ValueFromDataRepository</DataSource>
+          <DRColumnBindingMode>Cyclic</DRColumnBindingMode>
+          <DR_RelativePath>21B82BE49AF401BAD87F54BAB4C9606C/URL</DR_RelativePath>
+        </FlowStepInputArgument>
+      </StepInputArgs>
+      <StepOutputArgs />
+    </FlowStep>
+  </FlowSteps>
+</FlowSchema>
