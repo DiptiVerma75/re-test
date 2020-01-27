@@ -257,7 +257,7 @@
       <DefaultValues />
       <IsMandatory>false</IsMandatory>
       <Description>Use pCLoudy URL</Description>
-      <Type>String</Type>
+      <Type>DateTime</Type>
     </ComponentInputParameter>
   </InputParameters>
   <OutputParameters>

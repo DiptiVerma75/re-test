@@ -1,0 +1,66 @@
+[
+  {
+    "ArtifactPath": "GlobalVariables/Default Browser",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_Login.okor/Remote Mobile Web  Application Testing on Real Android Devices  pCloudy/userId",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_Login.okor/Remote Mobile Web  Application Testing on Real Android Devices  pCloudy/password",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_Login.okor/Remote Mobile Web  Application Testing on Real Android Devices  pCloudy/LOGIN",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_Login.okor/pCloudy  Home/DEVICES",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Web  Application Testing on Real Android Devices  pCloudy/Sign Up",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/fname",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/email",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/phone",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/spassword",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/Sign up for free now",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\OR_SIgnUp.okor/Remote Mobile Application Testing on Real Android Devices, pCloudy/This user was not verifi",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\SIGN_UP.okfl",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\TC.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\LOGIN.okfl",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\TC.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\GLobalVariable.okgdr/Browser",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\TC.oktc"
+  },
+  {
+    "ArtifactPath": "Project Workspace\\RECORD\\GLobalVariable.okgdr/URL",
+    "UsedInArtifactPath": "Project Workspace\\RECORD\\TC.oktc"
+  }
+]
